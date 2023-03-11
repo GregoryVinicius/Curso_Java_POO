@@ -6,7 +6,6 @@ import java.time.LocalDate;
 public class Aula_2_Objeto {
 
     public static void main(String[] args) {
-        /*
         Caneta c1 = new Caneta();
         c1.modelo = "Bic cristal";
         c1.cor = "azul";
@@ -52,9 +51,18 @@ public class Aula_2_Objeto {
         
         moe1.statusMoeda();
         moe1.tacarMoeda();
-        */
+        
         
         Aula a1 = new Aula();
+        a1.materia = "POO";
+        a1.data = "11/03/2023";
+        a1.tempoDura = "50 minutos";
         
+        HorarioMarcado h1 = new HorarioMarcado();
+        h1.marcada = true;
+        h1.status = "marcada";
+        h1.dataMarcada = "11/03/2023";
+        h1.horaMarcada = "12:52";
+        h1.desmarcar();
     }
 }

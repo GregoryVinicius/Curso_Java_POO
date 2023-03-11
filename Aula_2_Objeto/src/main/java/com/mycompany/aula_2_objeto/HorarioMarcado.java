@@ -3,11 +3,11 @@ package com.mycompany.aula_2_objeto;
 import java.util.Date;
 import java.time.LocalDate;
 
-public class horarioMarcado {
+public class HorarioMarcado {
     boolean marcada;
     String status;
-    Date dataMarcada;
-    Date horaMarcada;
+    String dataMarcada;
+    String horaMarcada;
     
     void desmarcar(){
         this.marcada = false;

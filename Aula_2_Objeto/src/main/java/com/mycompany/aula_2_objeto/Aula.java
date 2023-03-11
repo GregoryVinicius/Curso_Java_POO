@@ -5,7 +5,7 @@ import java.time.LocalDate;
 
 public class Aula {
     String materia;
-    Date tempoDura;
-    Date data;
+    String tempoDura;
+    String data;
 }
 
